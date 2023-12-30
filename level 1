@@ -1,1 +1,23 @@
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+                         _                     _ _ _  
+                        | |__   __ _ _ __   __| (_) |_
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
 
+                      This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit1@bandit.labs.overthewire.org's password:
+bandit1@bandit:~$ ls -alps
+total 24
+4 -rw-r-----  1 bandit2 bandit1   33 Oct  5 06:19 -
+4 drwxr-xr-x  2 root    root    4096 Oct  5 06:19 ./
+4 drwxr-xr-x 70 root    root    4096 Oct  5 06:20 ../
+4 -rw-r--r--  1 root    root     220 Jan  6  2022 .bash_logout
+4 -rw-r--r--  1 root    root    3771 Jan  6  2022 .bashrc
+4 -rw-r--r--  1 root    root     807 Jan  6  2022 .profile
+bandit1@bandit:~$ cat ./-
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+bandit1@bandit:~$ exit
